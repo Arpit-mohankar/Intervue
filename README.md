@@ -99,15 +99,7 @@ npm start
 REACT_APP_SOCKET_URL=http://localhost:5000
 ```
 
----
 
-## 🌐 Deployment on Render
-
-- **Backend**: Deploy `server/` as a Web Service
-- **Frontend**: Deploy `client/` as a Static Site
-- Use correct socket URLs (not `localhost`) in `.env`
-
----
 
 ## 🙌 Contribution
 
