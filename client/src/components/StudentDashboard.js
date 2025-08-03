@@ -209,7 +209,7 @@ const StudentDashboard = () => {
         </div>
         
         <div className="chat-button" onClick={handleChatClick}>
-          <span className="chat-icon"></span>
+          <span className="chat-icon">💬</span>
         </div>
       </div>
       
