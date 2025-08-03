@@ -6,7 +6,7 @@ class SocketService {
   }
 
   connect() {
-    this.socket = io('http://localhost:5000');
+    this.socket = io('https://intervue-polling-app.onrender.com/');
     return this.socket;
   }
 

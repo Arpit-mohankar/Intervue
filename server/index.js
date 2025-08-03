@@ -11,14 +11,14 @@ const server = http.createServer(app);
 
 const io = socketIo(server, {
   cors: {
-    origin: process.env.CLIENT_URL || ["http://localhost:3000"],
+    origin: process.env.CLIENT_URL || ["https://intervue-polling-app.onrender.com/"],
     methods: ["GET", "POST"],
     credentials: true
   }
 });
 
 app.use(cors({
-  origin: process.env.CLIENT_URL || "http://localhost:3000",
+  origin: process.env.CLIENT_URL || "https://intervue-polling-app.onrender.com/",
   credentials: true
 }));
 app.use(express.json());
